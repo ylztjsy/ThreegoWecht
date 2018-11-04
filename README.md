@@ -1,4 +1,4 @@
-# ThreegoWecht
+# ThreegoWechat
 a simple android project for newer 
 
 1.文件包含：
