@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="好友列表"
+        android:layout_weight="1"
+        android:id="@+id/friendList"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="朋友圈"
+        android:layout_weight="1"
+        android:id="@+id/friendquan"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="ShowMyInfo"
+        android:text="我的"
+        android:layout_weight="1"
+        android:id="@+id/my"/>
+
+
+</LinearLayout>
